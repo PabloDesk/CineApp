@@ -10,6 +10,9 @@ import java.util.Scanner;
 public class CineService {
 
     private static Scanner scanner = new Scanner(System.in);
+
+public class CineService {
+
     private List<Cliente> listaClientes;
     private List<Funcion> listaFunciones;
 
@@ -99,6 +102,8 @@ public class CineService {
         System.out.println("╠════════════════════════════════════════╣");
         System.out.println("║         Seleccione una opción          ║");
         System.out.println("╚════════════════════════════════════════╝");
+    // Métodos del servicio
+    public void mostrarMenuService() {
         // Diego 
     }
 
