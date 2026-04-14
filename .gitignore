@@ -1,0 +1,57 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# --- JAVA ESPECÍFICO ---
+# Ignora los archivos compilados (el código que entiende la máquina, no el humano)
+*.class
+
+# Archivos empaquetados (si luego decides convertir tu juego en un ejecutable)
+*.jar
+*.war
+*.ear
+
+# --- DIRECTORIOS DE SALIDA ---
+# Donde los editores guardan el código compilado
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.metadata/
+.settings/
+
+# --- ARCHIVOS TEMPORALES DEL SISTEMA ---
+Thumbs.db
+*.log
+tmp/
