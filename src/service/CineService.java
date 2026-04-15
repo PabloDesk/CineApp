@@ -148,7 +148,8 @@ public class CineService {
         // Alexander
     }
 
-    public void salir() {
-        // Sary
+        public void salir() {
+        System.out.println("Saliendo del sistema...");
+        System.exit(0);
     }
 }
