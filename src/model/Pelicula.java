@@ -19,4 +19,12 @@ public class Pelicula {
     public void mostrarInfo() {
         System.out.println("Peliculas " + titulo + "Duracion" + duracion + "Min");
     }
+
+    public void setDuracion(int duracion) {
+        this.duracion = duracion;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 }
