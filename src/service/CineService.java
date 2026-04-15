@@ -123,7 +123,8 @@ public class CineService {
         // Alexander
     }
 
-    public void salir() {
-        // Sary
+ public void salir() {
+    System.out.println("\nSaliendo del sistema... Gracias por usar CineApp.");
+    activo = false;
     }
 }
