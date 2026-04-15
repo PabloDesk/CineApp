@@ -34,21 +34,18 @@ public class Funcion {
 
     public boolean venderEntrada(int numeroAsiento) {
         if (numeroAsiento < 1 || numeroAsiento > capacidadTotal) {
-            System.out.println("ERROR: Asiento invalido. Debe ser entre 1 y " + capacidadTotal);
             return false;
         }
         if (asientosOcupados.contains(numeroAsiento)) {
-            System.out.println("ERROR: El asiento " + numeroAsiento + " ya esta ocupado.");
             return false;
         }
         asientosOcupados.add(numeroAsiento);
-        System.out.println("Asiento " + numeroAsiento + " reservado correctamente.");
         return true;
     }
 
     public void mostrarInfo() {
         System.out.print("Funcion: ");
         pelicula.mostrarInfo();
-        System.out.println("Horario: " + horario + " | Asientos disponibles: " + asientosDisponibles() + "/" + capacidadTotal);
+        System.out.println(" Horario: " + horario);
     }
 }
